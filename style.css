@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.5s;
+}
+
+header {
+  padding: 1.5rem 8rem;
+  background-color: hsl(0deg, 20%, 40%);
+  color: white;
+  background-image: url("https://www.hayleys.com/wp-content/uploads/2017/03/waterNew.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav div {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+header nav div span {
+  color: hsl(38deg, 100%, 95%);
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+header nav ul li {
+  cursor: pointer;
+}
+header nav ul li:hover {
+  color: hsl(0deg, 100%, 91%);
+}
+header .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+header .hero img {
+  width: 35rem;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.5rem;
+}
+header .hero img:hover {
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+}
+header .hero div h1 {
+  font-size: 3rem;
+}
+header .hero div p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+header .hero div button {
+  padding: 0.6rem 1.6rem;
+  cursor: pointer;
+  color: hsl(0deg, 20%, 40%);
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: hsl(38deg, 100%, 95%);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+header .hero div button:hover {
+  color: hsl(38deg, 100%, 95%);
+  background-color: transparent;
+  box-shadow: 0 0 0 0.15rem hsl(38deg, 100%, 95%);
+}
+
+main .products {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 8rem;
+  align-items: center;
+  gap: 3rem;
+}
+main .products h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: hsl(0deg, 20%, 40%);
+}
+main .products div {
+  display: flex;
+  gap: 2rem;
+}
+main .products div article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 0.1rem solid hsl(0deg, 20%, 40%);
+  cursor: pointer;
+  position: relative;
+}
+main .products div article:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0 0.15rem hsl(38deg, 100%, 95%);
+}
+main .products div article img {
+  width: 14rem;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .products div article p {
+  padding-top: 0.6rem;
+  background-color: rgba(255, 246, 230, 0.5);
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 88%;
+  bottom: 0;
+  -webkit-backdrop-filter: blur(0.2rem);
+          backdrop-filter: blur(0.2rem);
+}
+main .quote {
+  background-image: url("https://media.distractify.com/brand-img/Cqd-w65Gz/0x0/belle-delph-1589928058143.jpg");
+  padding: 8rem 8rem;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: hsl(0deg, 20%, 40%);
+}
+main .quote h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
+  color: hsl(0deg, 100%, 91%);
+}
+main .quote h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  bottom: 27%;
+  right: 18%;
+  color: hsl(38deg, 100%, 95%);
+}
+main .order {
+  padding: 8rem 8rem;
+  color: hsl(38deg, 100%, 95%);
+}
+main .order article {
+  background-color: hsl(0deg, 20%, 40%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 8rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.5rem rgba(255, 246, 230, 0.5);
+}
+main .order article div h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+main .order article button {
+  color: hsl(38deg, 100%, 95%);
+  font-size: 1.2rem;
+  padding: 0.8rem 1.8rem;
+  background-color: transparent;
+  border: 0.15rem solid hsl(38deg, 100%, 95%);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+main .order article button:hover {
+  background-color: hsl(38deg, 100%, 95%);
+  color: hsl(0deg, 20%, 40%);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: hsl(0deg, 20%, 40%);
+  color: hsl(38deg, 100%, 95%);
+}/*# sourceMappingURL=style.css.map */
